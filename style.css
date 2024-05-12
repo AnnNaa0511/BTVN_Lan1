@@ -108,11 +108,17 @@ a {
 
 
 .header__bottom .header__bottom__menu li a{
+    width: 20rem;
+    height: 3.5rem;
     color: rgb(255, 0, 0);
     font-family: sans-serif;
     /* font-weight: 550; */
     font-size: 2rem;
     /* z-index: -1; */
+    /* height: 100%;
+    width: 100%; */
+    padding: 0.5rem 0;
+    text-align: center;
 }
 
 .header__bottom .header__bottom__menu li:hover{
@@ -130,8 +136,8 @@ a {
     min-width: 10rem;
     background-color: orange;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     border: 2px solid rgb(81, 186, 246); 
     border-radius: 5px;
 }

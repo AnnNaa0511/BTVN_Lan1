@@ -9,11 +9,17 @@
 body {
     min-width: 89rem;
     /* height: 100vh; */
-    border: 8px solid;
+    
     overflow: scroll;
     overscroll-behavior: auto;
     width: 100%;
     height: 100%;
+}
+
+.wrapper {
+    border: 8px solid;
+    width: 120rem;
+    margin: 0 auto;
 }
 
 html {
@@ -152,7 +158,7 @@ a {
 }
 
 .content .content__description {
-    width: 75%;
+    width: 80%;
     font-family: sans-serif;
 }
 .content .content__description img {
@@ -249,19 +255,17 @@ a {
     /* display: flex; */
     padding-left: 1.2rem;
     border-top: 0.5rem solid;
-    width: 25%;
+    border-bottom: 0.5rem solid;
+    width: 32.5%;
+    height: 85rem;
 }
 
 .content .content__avatar .avatar {
-    width: 35rem;
+    width: 100%;
     height: 20rem;
     overflow: scroll;
     margin-top: 1rem;
     /* margin-left: 1rem; */
-}
-
-.content .content__avatar .avatar:last-child {
-    border-bottom: 5px solid black;
 }
 
 .content .content__avatar .avatar span{
